@@ -31,7 +31,7 @@
 }
 
 .str-video__participant-list {
-  background-color: #1c1f2e;
+  background-color: #0a0a0a; /* Changed from blue-ish to dark gray */
   padding: 10px;
   border-radius: 10px;
   color: white;
@@ -43,12 +43,12 @@
 }
 
 .glassmorphism {
-  background: rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.15); /* Reduced opacity for more contrast */
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
 }
 .glassmorphism2 {
-  background: rgba(18, 17, 17, 0.25);
+  background: rgba(0, 0, 0, 0.5); /* Increased opacity for more contrast */
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
 }
@@ -63,12 +63,12 @@
   height: 40px;
 }
 .cl-dividerLine {
-  background: #252a41;
+  background: #333333; /* Changed to dark gray */
   height: 2px;
 }
 
 .cl-socialButtonsIconButton {
-  border: 3px solid #565761;
+  border: 3px solid #444444; /* Changed to gray */
 }
 
 .cl-internal-wkkub3 {
